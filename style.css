@@ -1,0 +1,1023 @@
+body{
+  width:608px;
+  height:488px;
+}
+.container{
+    max-width: 600px;
+    max-height: 300px;
+}
+#search-emojis-input{
+    font-size: 18px;
+    width: 100%;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+#search-emojis-results{
+    margin: 15px 5px 5px 5px;
+    /*max-height: 200px;*/
+    /*overflow: scroll;*/
+}
+#search_area{
+    overflow: hidden;
+}
+#current_emoji_title{
+    text-align: center;
+    font-size: 115%;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+#current_emoji_title .emoji_big{
+    font-size: 150%;
+    font-style: normal;
+}
+
+#message_panel{
+    margin-bottom: 5px;
+}
+#emoji-message{
+    font-size: 16px;
+    width: 100%;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+#emoji-message-box{
+    margin: 4px 3px;
+}
+#option-emojis{
+    font-size: 115%;
+}
+.emoji-content{
+    height: 250px;
+    overflow: scroll;
+    padding-top: 10px;
+}
+#web_version_introduction{
+    text-align: left;
+    font-size: 100%;
+    color: red;
+    margin:4px 2px;
+}
+
+#copy-btn{
+    padding: 4px 10px;
+}
+
+.nav>li>a{
+    padding: 3px 5px;
+    font-weight: bold;
+}
+
+.nav-tabs>li a{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.nav-tabs>li a.btn{
+    margin-right: 4px;
+}
+#copy-btn-container{
+    text-align: center;
+    margin:0px 5px 5px 5px;
+}
+
+#replace-emoji-option-container{
+    margin-top: 25px;
+}
+#search-btn,#option-btn{
+    background-color: #75caeb;
+}
+
+.ek_emojisymbol{
+    zoom: 0.56;
+}
+
+#copy_notification_text{
+    color: green;
+    font-weight: bold;
+    font-style: normal;
+}
+#skin_button_option_container{
+    margin:15px 5px 10px 5px;
+}
+#skin_button_option_container{
+    min-height: 30px;
+}
+.skin_button_option:hover{
+    cursor: pointer; 
+    cursor: hand;
+}
+.emoji_span_container:hover{
+    cursor: pointer; 
+    cursor: hand;
+}
+@media only screen and (max-device-width: 799px) { 
+  #navbar-brand-logo h1,#navbar-brand-logo h2 {
+    font-size: 120%;
+    display: inline;
+  }
+  .dsk_only{
+    display: none;
+  }
+  .introduction {
+    margin-bottom: 3px;    
+    font-size: 110%;
+  }
+  .btn {
+    padding: 2px 6px 2px 6px;
+  }
+
+  .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 3px 5px;
+  }
+  .nav-tabs>li>a:hover, .nav-tabs>li>a:focus, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus, .nav-tabs .open>a, .nav-tabs .open>a:hover, .nav-tabs .open>a:focus{
+    padding-bottom: 6px;
+  }
+  /*#adsense_top_ad {
+    margin-bottom: 5px;
+    margin-top: -8px;    
+  }*/
+  textarea{
+    font-size: 16px;
+  }
+  .capitalize{
+    text-transform: capitalize;
+  }
+}
+
+@media only screen and (min-device-width: 800px) { 
+  .mobile_only{
+    display: none;
+  }
+  .introduction{
+    font-size: 115%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.the_sprite_img_0 {
+    width: 35px;
+    height: 33px;
+    display: inline-block;
+    padding: 0;
+    background: url('../images/sprites/apple/apple-0.png');
+    vertical-align: middle
+}
+.the_sprite_img_1 {
+    width: 35px;
+    height: 33px;
+    display: inline-block;
+    padding: 0;
+    background: url('../images/sprites/apple/apple-1.png');
+    vertical-align: middle
+}
+.the_sprite_img_2 {
+    width: 35px;
+    height: 33px;
+    display: inline-block;
+    padding: 0;
+    background: url('../images/sprites/apple/apple-2.png');
+    vertical-align: middle
+}
+.the_sprite_img_3 {
+    width: 35px;
+    height: 33px;
+    display: inline-block;
+    padding: 0;
+    background: url('../images/sprites/apple/apple-3.png');
+    vertical-align: middle
+}
+.the_sprite_img_4 {
+    width: 35px;
+    height: 33px;
+    display: inline-block;
+    padding: 0;
+    background: url('../images/sprites/apple/apple-4.png');
+    vertical-align: middle
+}
+.the_sprite_img_5 {
+    width: 35px;
+    height: 33px;
+    display: inline-block;
+    padding: 0;
+    background: url('../images/sprites/apple/apple-5.png');
+    vertical-align: middle
+}
+.the_sprite_img_6 {
+    width: 35px;
+    height: 33px;
+    display: inline-block;
+    padding: 0;
+    background: url('../images/sprites/apple/apple-6.png');
+    vertical-align: middle
+}
+.the_sprite_img_7 {
+    width: 35px;
+    height: 33px;
+    display: inline-block;
+    padding: 0;
+    background: url('../images/sprites/apple/apple-7.png');
+    vertical-align: middle
+}
+.the_sprite_img_9 {
+    width: 35px;
+    height: 33px;
+    display: inline-block;
+    padding: 0;    
+    vertical-align: middle
+}
+#emojis-content-container{
+    margin-top: 2px;
+    padding-left: 3px;
+    cursor: pointer; 
+    cursor: hand;
+}
+
+.emoji_span_container {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 7px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    border-style: outset;
+    border: 1px solid #555;
+    border-color: #000000;
+    display: inline-block;
+
+    /*Hide text*/
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.imgemj_0 {
+    background-position: -0px -0px
+}
+.imgemj_1 {
+    background-position: -33px -0px
+}
+.imgemj_2 {
+    background-position: -66px -0px
+}
+.imgemj_3 {
+    background-position: -99px -0px
+}
+.imgemj_4 {
+    background-position: -132px -0px
+}
+.imgemj_5 {
+    background-position: -165px -0px
+}
+.imgemj_6 {
+    background-position: -198px -0px
+}
+.imgemj_7 {
+    background-position: -231px -0px
+}
+.imgemj_8 {
+    background-position: -264px -0px
+}
+.imgemj_9 {
+    background-position: -297px -0px
+}
+.imgemj_10 {
+    background-position: -330px -0px
+}
+.imgemj_11 {
+    background-position: -363px -0px
+}
+.imgemj_12 {
+    background-position: -396px -0px
+}
+.imgemj_13 {
+    background-position: -429px -0px
+}
+.imgemj_14 {
+    background-position: -462px -0px
+}
+.imgemj_15 {
+    background-position: -495px -0px
+}
+.imgemj_16 {
+    background-position: -0px -33px
+}
+.imgemj_17 {
+    background-position: -33px -33px
+}
+.imgemj_18 {
+    background-position: -66px -33px
+}
+.imgemj_19 {
+    background-position: -99px -33px
+}
+.imgemj_20 {
+    background-position: -132px -33px
+}
+.imgemj_21 {
+    background-position: -165px -33px
+}
+.imgemj_22 {
+    background-position: -198px -33px
+}
+.imgemj_23 {
+    background-position: -231px -33px
+}
+.imgemj_24 {
+    background-position: -264px -33px
+}
+.imgemj_25 {
+    background-position: -297px -33px
+}
+.imgemj_26 {
+    background-position: -330px -33px
+}
+.imgemj_27 {
+    background-position: -363px -33px
+}
+.imgemj_28 {
+    background-position: -396px -33px
+}
+.imgemj_29 {
+    background-position: -429px -33px
+}
+.imgemj_30 {
+    background-position: -462px -33px
+}
+.imgemj_31 {
+    background-position: -495px -33px
+}
+.imgemj_32 {
+    background-position: -0px -66px
+}
+.imgemj_33 {
+    background-position: -33px -66px
+}
+.imgemj_34 {
+    background-position: -66px -66px
+}
+.imgemj_35 {
+    background-position: -99px -66px
+}
+.imgemj_36 {
+    background-position: -132px -66px
+}
+.imgemj_37 {
+    background-position: -165px -66px
+}
+.imgemj_38 {
+    background-position: -198px -66px
+}
+.imgemj_39 {
+    background-position: -231px -66px
+}
+.imgemj_40 {
+    background-position: -264px -66px
+}
+.imgemj_41 {
+    background-position: -297px -66px
+}
+.imgemj_42 {
+    background-position: -330px -66px
+}
+.imgemj_43 {
+    background-position: -363px -66px
+}
+.imgemj_44 {
+    background-position: -396px -66px
+}
+.imgemj_45 {
+    background-position: -429px -66px
+}
+.imgemj_46 {
+    background-position: -462px -66px
+}
+.imgemj_47 {
+    background-position: -495px -66px
+}
+.imgemj_48 {
+    background-position: -0px -99px
+}
+.imgemj_49 {
+    background-position: -33px -99px
+}
+.imgemj_50 {
+    background-position: -66px -99px
+}
+.imgemj_51 {
+    background-position: -99px -99px
+}
+.imgemj_52 {
+    background-position: -132px -99px
+}
+.imgemj_53 {
+    background-position: -165px -99px
+}
+.imgemj_54 {
+    background-position: -198px -99px
+}
+.imgemj_55 {
+    background-position: -231px -99px
+}
+.imgemj_56 {
+    background-position: -264px -99px
+}
+.imgemj_57 {
+    background-position: -297px -99px
+}
+.imgemj_58 {
+    background-position: -330px -99px
+}
+.imgemj_59 {
+    background-position: -363px -99px
+}
+.imgemj_60 {
+    background-position: -396px -99px
+}
+.imgemj_61 {
+    background-position: -429px -99px
+}
+.imgemj_62 {
+    background-position: -462px -99px
+}
+.imgemj_63 {
+    background-position: -495px -99px
+}
+.imgemj_64 {
+    background-position: -0px -132px
+}
+.imgemj_65 {
+    background-position: -33px -132px
+}
+.imgemj_66 {
+    background-position: -66px -132px
+}
+.imgemj_67 {
+    background-position: -99px -132px
+}
+.imgemj_68 {
+    background-position: -132px -132px
+}
+.imgemj_69 {
+    background-position: -165px -132px
+}
+.imgemj_70 {
+    background-position: -198px -132px
+}
+.imgemj_71 {
+    background-position: -231px -132px
+}
+.imgemj_72 {
+    background-position: -264px -132px
+}
+.imgemj_73 {
+    background-position: -297px -132px
+}
+.imgemj_74 {
+    background-position: -330px -132px
+}
+.imgemj_75 {
+    background-position: -363px -132px
+}
+.imgemj_76 {
+    background-position: -396px -132px
+}
+.imgemj_77 {
+    background-position: -429px -132px
+}
+.imgemj_78 {
+    background-position: -462px -132px
+}
+.imgemj_79 {
+    background-position: -495px -132px
+}
+.imgemj_80 {
+    background-position: -0px -165px
+}
+.imgemj_81 {
+    background-position: -33px -165px
+}
+.imgemj_82 {
+    background-position: -66px -165px
+}
+.imgemj_83 {
+    background-position: -99px -165px
+}
+.imgemj_84 {
+    background-position: -132px -165px
+}
+.imgemj_85 {
+    background-position: -165px -165px
+}
+.imgemj_86 {
+    background-position: -198px -165px
+}
+.imgemj_87 {
+    background-position: -231px -165px
+}
+.imgemj_88 {
+    background-position: -264px -165px
+}
+.imgemj_89 {
+    background-position: -297px -165px
+}
+.imgemj_90 {
+    background-position: -330px -165px
+}
+.imgemj_91 {
+    background-position: -363px -165px
+}
+.imgemj_92 {
+    background-position: -396px -165px
+}
+.imgemj_93 {
+    background-position: -429px -165px
+}
+.imgemj_94 {
+    background-position: -462px -165px
+}
+.imgemj_95 {
+    background-position: -495px -165px
+}
+.imgemj_96 {
+    background-position: -0px -198px
+}
+.imgemj_97 {
+    background-position: -33px -198px
+}
+.imgemj_98 {
+    background-position: -66px -198px
+}
+.imgemj_99 {
+    background-position: -99px -198px
+}
+.imgemj_100 {
+    background-position: -132px -198px
+}
+.imgemj_101 {
+    background-position: -165px -198px
+}
+.imgemj_102 {
+    background-position: -198px -198px
+}
+.imgemj_103 {
+    background-position: -231px -198px
+}
+.imgemj_104 {
+    background-position: -264px -198px
+}
+.imgemj_105 {
+    background-position: -297px -198px
+}
+.imgemj_106 {
+    background-position: -330px -198px
+}
+.imgemj_107 {
+    background-position: -363px -198px
+}
+.imgemj_108 {
+    background-position: -396px -198px
+}
+.imgemj_109 {
+    background-position: -429px -198px
+}
+.imgemj_110 {
+    background-position: -462px -198px
+}
+.imgemj_111 {
+    background-position: -495px -198px
+}
+.imgemj_112 {
+    background-position: -0px -231px
+}
+.imgemj_113 {
+    background-position: -33px -231px
+}
+.imgemj_114 {
+    background-position: -66px -231px
+}
+.imgemj_115 {
+    background-position: -99px -231px
+}
+.imgemj_116 {
+    background-position: -132px -231px
+}
+.imgemj_117 {
+    background-position: -165px -231px
+}
+.imgemj_118 {
+    background-position: -198px -231px
+}
+.imgemj_119 {
+    background-position: -231px -231px
+}
+.imgemj_120 {
+    background-position: -264px -231px
+}
+.imgemj_121 {
+    background-position: -297px -231px
+}
+.imgemj_122 {
+    background-position: -330px -231px
+}
+.imgemj_123 {
+    background-position: -363px -231px
+}
+.imgemj_124 {
+    background-position: -396px -231px
+}
+.imgemj_125 {
+    background-position: -429px -231px
+}
+.imgemj_126 {
+    background-position: -462px -231px
+}
+.imgemj_127 {
+    background-position: -495px -231px
+}
+.imgemj_128 {
+    background-position: -0px -264px
+}
+.imgemj_129 {
+    background-position: -33px -264px
+}
+.imgemj_130 {
+    background-position: -66px -264px
+}
+.imgemj_131 {
+    background-position: -99px -264px
+}
+.imgemj_132 {
+    background-position: -132px -264px
+}
+.imgemj_133 {
+    background-position: -165px -264px
+}
+.imgemj_134 {
+    background-position: -198px -264px
+}
+.imgemj_135 {
+    background-position: -231px -264px
+}
+.imgemj_136 {
+    background-position: -264px -264px
+}
+.imgemj_137 {
+    background-position: -297px -264px
+}
+.imgemj_138 {
+    background-position: -330px -264px
+}
+.imgemj_139 {
+    background-position: -363px -264px
+}
+.imgemj_140 {
+    background-position: -396px -264px
+}
+.imgemj_141 {
+    background-position: -429px -264px
+}
+.imgemj_142 {
+    background-position: -462px -264px
+}
+.imgemj_143 {
+    background-position: -495px -264px
+}
+.imgemj_144 {
+    background-position: -0px -297px
+}
+.imgemj_145 {
+    background-position: -33px -297px
+}
+.imgemj_146 {
+    background-position: -66px -297px
+}
+.imgemj_147 {
+    background-position: -99px -297px
+}
+.imgemj_148 {
+    background-position: -132px -297px
+}
+.imgemj_149 {
+    background-position: -165px -297px
+}
+.imgemj_150 {
+    background-position: -198px -297px
+}
+.imgemj_151 {
+    background-position: -231px -297px
+}
+.imgemj_152 {
+    background-position: -264px -297px
+}
+.imgemj_153 {
+    background-position: -297px -297px
+}
+.imgemj_154 {
+    background-position: -330px -297px
+}
+.imgemj_155 {
+    background-position: -363px -297px
+}
+.imgemj_156 {
+    background-position: -396px -297px
+}
+.imgemj_157 {
+    background-position: -429px -297px
+}
+.imgemj_158 {
+    background-position: -462px -297px
+}
+.imgemj_159 {
+    background-position: -495px -297px
+}
+.imgemj_160 {
+    background-position: -0px -330px
+}
+.imgemj_161 {
+    background-position: -33px -330px
+}
+.imgemj_162 {
+    background-position: -66px -330px
+}
+.imgemj_163 {
+    background-position: -99px -330px
+}
+.imgemj_164 {
+    background-position: -132px -330px
+}
+.imgemj_165 {
+    background-position: -165px -330px
+}
+.imgemj_166 {
+    background-position: -198px -330px
+}
+.imgemj_167 {
+    background-position: -231px -330px
+}
+.imgemj_168 {
+    background-position: -264px -330px
+}
+.imgemj_169 {
+    background-position: -297px -330px
+}
+.imgemj_170 {
+    background-position: -330px -330px
+}
+.imgemj_171 {
+    background-position: -363px -330px
+}
+.imgemj_172 {
+    background-position: -396px -330px
+}
+.imgemj_173 {
+    background-position: -429px -330px
+}
+.imgemj_174 {
+    background-position: -462px -330px
+}
+.imgemj_175 {
+    background-position: -495px -330px
+}
+.imgemj_176 {
+    background-position: -0px -363px
+}
+.imgemj_177 {
+    background-position: -33px -363px
+}
+.imgemj_178 {
+    background-position: -66px -363px
+}
+.imgemj_179 {
+    background-position: -99px -363px
+}
+.imgemj_180 {
+    background-position: -132px -363px
+}
+.imgemj_181 {
+    background-position: -165px -363px
+}
+.imgemj_182 {
+    background-position: -198px -363px
+}
+.imgemj_183 {
+    background-position: -231px -363px
+}
+.imgemj_184 {
+    background-position: -264px -363px
+}
+.imgemj_185 {
+    background-position: -297px -363px
+}
+.imgemj_186 {
+    background-position: -330px -363px
+}
+.imgemj_187 {
+    background-position: -363px -363px
+}
+.imgemj_188 {
+    background-position: -396px -363px
+}
+.imgemj_189 {
+    background-position: -429px -363px
+}
+.imgemj_190 {
+    background-position: -462px -363px
+}
+.imgemj_191 {
+    background-position: -495px -363px
+}
+.imgemj_192 {
+    background-position: -0px -396px
+}
+.imgemj_193 {
+    background-position: -33px -396px
+}
+.imgemj_194 {
+    background-position: -66px -396px
+}
+.imgemj_195 {
+    background-position: -99px -396px
+}
+.imgemj_196 {
+    background-position: -132px -396px
+}
+.imgemj_197 {
+    background-position: -165px -396px
+}
+.imgemj_198 {
+    background-position: -198px -396px
+}
+.imgemj_199 {
+    background-position: -231px -396px
+}
+.imgemj_200 {
+    background-position: -264px -396px
+}
+.imgemj_201 {
+    background-position: -297px -396px
+}
+.imgemj_202 {
+    background-position: -330px -396px
+}
+.imgemj_203 {
+    background-position: -363px -396px
+}
+.imgemj_204 {
+    background-position: -396px -396px
+}
+.imgemj_205 {
+    background-position: -429px -396px
+}
+.imgemj_206 {
+    background-position: -462px -396px
+}
+.imgemj_207 {
+    background-position: -495px -396px
+}
+.imgemj_208 {
+    background-position: -0px -429px
+}
+.imgemj_209 {
+    background-position: -33px -429px
+}
+.imgemj_210 {
+    background-position: -66px -429px
+}
+.imgemj_211 {
+    background-position: -99px -429px
+}
+.imgemj_212 {
+    background-position: -132px -429px
+}
+.imgemj_213 {
+    background-position: -165px -429px
+}
+.imgemj_214 {
+    background-position: -198px -429px
+}
+.imgemj_215 {
+    background-position: -231px -429px
+}
+.imgemj_216 {
+    background-position: -264px -429px
+}
+.imgemj_217 {
+    background-position: -297px -429px
+}
+.imgemj_218 {
+    background-position: -330px -429px
+}
+.imgemj_219 {
+    background-position: -363px -429px
+}
+.imgemj_220 {
+    background-position: -396px -429px
+}
+.imgemj_221 {
+    background-position: -429px -429px
+}
+.imgemj_222 {
+    background-position: -462px -429px
+}
+.imgemj_223 {
+    background-position: -495px -429px
+}
+.imgemj_224 {
+    background-position: -0px -462px
+}
+.imgemj_225 {
+    background-position: -33px -462px
+}
+.imgemj_226 {
+    background-position: -66px -462px
+}
+.imgemj_227 {
+    background-position: -99px -462px
+}
+.imgemj_228 {
+    background-position: -132px -462px
+}
+.imgemj_229 {
+    background-position: -165px -462px
+}
+.imgemj_230 {
+    background-position: -198px -462px
+}
+.imgemj_231 {
+    background-position: -231px -462px
+}
+.imgemj_232 {
+    background-position: -264px -462px
+}
+.imgemj_233 {
+    background-position: -297px -462px
+}
+.imgemj_234 {
+    background-position: -330px -462px
+}
+.imgemj_235 {
+    background-position: -363px -462px
+}
+.imgemj_236 {
+    background-position: -396px -462px
+}
+.imgemj_237 {
+    background-position: -429px -462px
+}
+.imgemj_238 {
+    background-position: -462px -462px
+}
+.imgemj_239 {
+    background-position: -495px -462px
+}
+.imgemj_240 {
+    background-position: -0px -495px
+}
+.imgemj_241 {
+    background-position: -33px -495px
+}
+.imgemj_242 {
+    background-position: -66px -495px
+}
+.imgemj_243 {
+    background-position: -99px -495px
+}
+.imgemj_244 {
+    background-position: -132px -495px
+}
+.imgemj_245 {
+    background-position: -165px -495px
+}
+.imgemj_246 {
+    background-position: -198px -495px
+}
+.imgemj_247 {
+    background-position: -231px -495px
+}
+.imgemj_248 {
+    background-position: -264px -495px
+}
+.imgemj_249 {
+    background-position: -297px -495px
+}
+.imgemj_250 {
+    background-position: -330px -495px
+}
+.imgemj_251 {
+    background-position: -363px -495px
+}
+.imgemj_252 {
+    background-position: -396px -495px
+}
+.imgemj_253 {
+    background-position: -429px -495px
+}
+.imgemj_254 {
+    background-position: -462px -495px
+}
+.imgemj_255 {
+    background-position: -495px -495px
+}
